@@ -1,0 +1,128 @@
+#header{
+	height: 100px;
+	background-color: #FF99CC;
+	margin-top: -15px;
+	margin-right: -5px;
+	margin-left: -5px;
+	text-align: center;
+}
+
+#header .titulo{
+	position: relative;
+	top: 25px;
+	font-family: comic sans MS;
+}
+
+#materias{
+	margin-top: -20px;
+	margin-right: -5px;
+	margin-left: -5px;
+}
+
+.materias-bg{
+	height: auto;
+	margin-bottom: -22px;
+	padding-bottom: 1%;
+}
+
+.matematica{
+	background-color: #0080FF;
+}
+
+.fisica{
+	background-color: #00CCCC;
+}
+
+.quimica{
+	background-color: #B2FF66;
+}
+
+.biologia{
+	background-color: #00CC66;
+}
+
+.portugues{
+	background-color: #FF6666;
+}
+
+.geografia{
+	background-color: #B266FF;
+}
+
+.historia{
+	background-color: #FF9933;
+}
+
+.ingles{
+	background-color: #9999FF;
+}
+
+.materia-titulo{
+	position: relative;
+	top: 2px;
+	color: #112200;
+	font-family: comic sans MS;
+	left:10px;
+}
+
+.submateria{
+	margin-left: 20px;
+	margin-right: 20px;
+	height:auto;
+}
+
+.submateria-titulo{
+	position: relative;
+	top: 2px;
+	color: #112200;
+	font-family: comic sans MS;
+	left:10px;
+}
+
+.fraquezas{
+	background-color: #FFFF99;
+	margin-left: 20px;
+	margin-right: 20px;
+	height:auto;
+	padding-bottom: 1%;
+}
+
+.fraquezas-titulo{
+	position: relative;
+	top: 2px;
+	color: #112200;
+	font-family: comic sans MS;
+	left:10px;
+}
+
+.bibliografia{
+	background-color: #CCFF99;
+	margin-left: 20px;
+	margin-right: 20px;
+	height:auto;
+	padding-bottom: 1%;
+}
+
+.bibliografia-titulo{
+	position: relative;
+	top: 2px;
+	color: #112200;
+	font-family: comic sans MS;
+	left:10px;
+}
+
+.forcas{
+	background-color: #99FFFF;
+	margin-left: 20px;
+	margin-right: 20px;
+	height:auto;
+	padding-bottom: 1%;
+}
+
+.forcas-titulo{
+	position: relative;
+	top: 2px;
+	color: #112200;
+	font-family: comic sans MS;
+	left:10px;
+}

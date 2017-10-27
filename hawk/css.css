@@ -1,0 +1,10 @@
+#menu{
+	background-color: orange;
+}
+
+.menu-item{
+	background-color: blue;
+}
+.menu-wraper{
+	align-items: center;
+}
