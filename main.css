@@ -1,0 +1,294 @@
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+.subtitle {
+    font: georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing:0.4em;
+    color:crimson;
+    font-size: 2em;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.title {
+    font: italic normal normal 60px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing:0.1em;
+    color:crimson;
+    font-size: 3em;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.abs {
+    font-family:lobster, cursive;
+    color:crimson;
+    font-weight: bold;
+    font-size: 3em;
+    display: inline-block;
+    
+}
+
+#menu {
+    background-color:crimson;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#content {
+    background-color: beige;
+    height: auto;
+    overflow: hidden;
+}
+
+.title-wrapper {
+    text-align: center;
+    margin-top: 100px;
+}
+.link-li {
+    color: white;
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+}
+
+.link-ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.images-container{
+    height: 300px;
+    display: inline-block;
+}
+
+.description-box-wrapper {
+    font-size: 1.2em;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+    height: 450px;
+    display: flex;
+}
+
+.servicos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+    background-image: url("imagens/velvet_texture.jpg");
+    background-size: cover;
+}
+
+.images-contain-property {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+.left-float {
+    margin-left: 5%;
+    float: left;
+}
+
+.right-float {
+    margin-left: 10%;
+    margin-right: 5%;
+    float: right;
+}
+
+.title-servicos {
+    text-align: left;
+    margin-left: 5%;
+    font: normal normal normal 50px/0.5em georgia,palatino,'book antiqua','palatino linotype',serif;
+    color: beige;
+}
+
+.description-box {
+    padding: 15px;
+    width: 40%;
+    height: 300px;
+}
+
+.description-text-servicos {
+    font: normal normal normal 16px/1.4em 'Ropa-sans',sans-serif;
+    text-align: center;
+    color: beige;
+}
+
+.quem-somos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.profile-wrapper {
+    font-size: 1.2em;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 2px crimson solid;
+}
+
+.profile-image-container {
+    width: 30%;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+.profile-text-box {
+    height: auto;
+    width: 60%;
+    display: table;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title-quem-somos {
+    text-align: left;
+    margin-left: 5%;
+    font: normal normal normal 50px/0.5em georgia,palatino,'book antiqua','palatino linotype',serif;
+    color: crimson;
+}
+
+.profile-description {
+    font: normal normal normal 16px/1.4em 'Ropa-sans',sans-serif;
+    font-size: 1.2em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: crimson;
+}
+
+.Quem-somos {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 100%;
+    height: auto;
+}
+
+.como-trabalho {
+    background-image: url("imagens/red-paint-texture.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.quem-somos-text-box {
+    font-size: 1.2em;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border: 2px beige solid;
+}
+
+.title-como-trabalho {
+    text-align: left;
+    margin-left: 5%;
+    font: normal normal normal 50px/0.5em georgia,palatino,'book antiqua','palatino linotype',serif;
+    color: beige;
+}
+
+.como-trabalho-description {
+    font: italic normal normal 16px/1.4em 'Ropa-sans',sans-serif;
+    font-size: 1.2em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: beige;
+}
+
+.crencas-description {
+    font: italic normal normal 16px/1.4em 'Ropa-sans',sans-serif;
+    font-size: 1.2em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: crimson;
+}
+
+.crencas {
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.title-crencas {
+    text-align: left;
+    margin-left: 5%;
+    font: normal normal normal 50px/0.5em georgia,palatino,'book antiqua','palatino linotype',serif;
+    color: crimson;
+}
+
+.crencas-text-box {
+    font-size: 1.2em;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border: 2px crimson solid;
+}
+
+#footer {
+    height: 50px;
+    /*background-image: url('imagens/polygon-bg.jpg');*/
+    background-color: crimson;
+    background-size: cover;
+    text-align: center;
+    line-height: 50px;
+}
+
+.como-trabalho-text-box {
+    font-size: 1.2em;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border: 2px beige solid;
+}
+
+.text-footer {
+    font: italic normal normal 60px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing:0.1em;
+    color:beige;
+    font-size: 1em;
+    vertical-align: middle;
+    line-height: normal;
+    display: inline-block;
+}
+
+.abs-footer {
+    font-family:lobster, cursive;
+    color:beige;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
