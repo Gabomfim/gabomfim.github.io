@@ -1,0 +1,64 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+}
+
+.menu-options{
+    list-style: none;
+    padding: 25px 50px;
+    text-align: right;
+}
+.menu-options li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#hero{
+    color: #ffffff;
+    background-color: #000000;
+    margin: 5vh 3vw;
+    height: 90vh;
+
+    /*background-image: linear-gradient(#000000, #000000, #ffffff);*/
+}
+
+#headline{
+    font-family: 'VT323', monospace;
+    padding: 25vh 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#headline .headline-title{
+    text-transform: uppercase;
+    font-size: 6vw;
+    letter-spacing: 0.5vw;
+    margin: 10px 0px;
+}
+
+#headline .headline-subtitle{
+    font-size: 2vw;
+}
+
+#content > h2:first-child{
+    margin: 50px 0 0 120px;
+    font-size: 1.5vw;
+}
+
+#content-profile{
+    background-image: url(images/foto_perfil_2x.jpg);
+    background-size: cover;
+    height: 500px;
+    margin: 30px 120px 50px 120px;
+    
+}
+
+#content-profile > p{
+    color: #000000;
+    padding: 55px 0 0 50px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 3vw;
+    line-height: 130%;
+    max-width: 500px;
+}
